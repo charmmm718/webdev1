@@ -32,7 +32,8 @@ const FactoryLayout = () => {
             <Heading size="8" style={{ 
               lineHeight: '1.1', 
               fontWeight: 'bold',
-              marginBottom: '1rem'
+              marginBottom: '1rem',
+              fontFamily: 'var(--font-family-mono)'
             }}>
               Droid: The #1 Software Development Agent on Terminal-Bench
             </Heading>

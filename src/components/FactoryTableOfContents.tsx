@@ -20,7 +20,8 @@ const FactoryTableOfContents = () => {
       <Heading size="3" style={{ 
         marginBottom: '1rem',
         color: 'var(--gray-12)',
-        fontWeight: '500'
+        fontWeight: '500',
+        fontFamily: 'var(--font-family-mono)'
       }}>
         TABLE OF CONTENTS
       </Heading>

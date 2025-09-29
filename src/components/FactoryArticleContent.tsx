@@ -20,7 +20,8 @@ const FactoryArticleContent = () => {
           <Heading size="6" style={{ 
             marginBottom: '1.5rem',
             color: 'var(--gray-12)',
-            fontWeight: '600'
+            fontWeight: '600',
+            fontFamily: 'var(--font-family-mono)'
           }}>
             • Terminal-Bench
           </Heading>
@@ -47,7 +48,8 @@ const FactoryArticleContent = () => {
           <Heading size="6" style={{ 
             marginBottom: '1.5rem',
             color: 'var(--gray-12)',
-            fontWeight: '600'
+            fontWeight: '600',
+            fontFamily: 'var(--font-family-mono)'
           }}>
             • Results
           </Heading>
@@ -81,7 +83,8 @@ const FactoryArticleContent = () => {
           <Heading size="6" style={{ 
             marginBottom: '1.5rem',
             color: 'var(--gray-12)',
-            fontWeight: '600'
+            fontWeight: '600',
+            fontFamily: 'var(--font-family-mono)'
           }}>
             • Agent design drives performance for all models
           </Heading>
