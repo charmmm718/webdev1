@@ -2,22 +2,6 @@
 
 /* Mobile Optimizations */
 @media (max-width: 768px) {
-  /* Sarasota Layout Mobile */
-  .sarasota-layout {
-    flex-direction: column;
-  }
-  
-  .sarasota-sidebar,
-  .sarasota-right-sidebar {
-    width: 100%;
-    position: static;
-    height: auto;
-  }
-  
-  .sarasota-main {
-    padding: 1rem;
-  }
-  
   /* Factory Layout Mobile - Single Column */
   .factory-grid-layout {
     display: block !important;
@@ -40,32 +24,15 @@
   }
   
   /* Navigation Mobile */
-  .nav-links {
+  .mobile-hidden {
     display: none;
-  }
-  
-  .nav-buttons {
-    gap: 0.5rem;
-  }
-  
-  .nav-buttons button {
-    font-size: 0.875rem;
-    padding: 0.5rem 1rem;
   }
 }
 
 /* Tablet Optimizations */
 @media (min-width: 769px) and (max-width: 1024px) {
-  .sarasota-sidebar {
-    width: 240px;
-  }
-  
-  .sarasota-right-sidebar {
-    width: 260px;
-  }
-  
-  .factory-toc {
-    width: 200px;
+  .factory-left-column {
+    width: 350px;
   }
 }
 
