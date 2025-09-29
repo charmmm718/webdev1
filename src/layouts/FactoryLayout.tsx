@@ -54,7 +54,8 @@ const FactoryLayout = () => {
                 color: 'white', 
                 padding: '0.25rem 0.5rem', 
                 fontSize: '11px',
-                borderRadius: '4px'
+                borderRadius: '4px',
+                fontFamily: 'var(--font-family-mono)'
               }}>
                 ENGINEERING
               </span>
@@ -63,7 +64,8 @@ const FactoryLayout = () => {
                 color: 'white', 
                 padding: '0.25rem 0.5rem', 
                 fontSize: '11px',
-                borderRadius: '4px'
+                borderRadius: '4px',
+                fontFamily: 'var(--font-family-mono)'
               }}>
                 AGENT NATIVE DEVELOPMENT
               </span>
@@ -72,7 +74,8 @@ const FactoryLayout = () => {
                 color: 'white', 
                 padding: '0.25rem 0.5rem', 
                 fontSize: '11px',
-                borderRadius: '4px'
+                borderRadius: '4px',
+                fontFamily: 'var(--font-family-mono)'
               }}>
                 NEW
               </span>
