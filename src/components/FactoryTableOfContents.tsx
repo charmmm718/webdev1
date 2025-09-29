@@ -16,40 +16,33 @@ const tableOfContents = [
 
 const FactoryTableOfContents = () => {
   return (
-    <Card 
-      size="3" 
-      style={{ 
-        position: 'sticky',
-        top: '100px',
-        width: '250px',
-        height: 'fit-content',
-        background: 'var(--gray-1)',
-        border: '1px solid var(--gray-4)'
-      }}
-    >
-      <Flex direction="column" gap="3">
-        <Heading size="4" style={{ marginBottom: '0.5rem' }}>
-          TABLE OF CONTENTS
-        </Heading>
-        
-        <Flex direction="column" gap="2">
-          {tableOfContents.map((item, index) => (
-            <Text 
-              key={index}
-              size="2" 
-              style={{ 
-                cursor: 'pointer',
-                padding: '0.25rem 0',
-                color: index === 0 ? 'var(--orange-9)' : 'var(--gray-11)',
-                fontWeight: index === 0 ? '500' : '400'
-              }}
-            >
-              {item}
-            </Text>
-          ))}
-        </Flex>
+    <div>
+      <Heading size="3" style={{ 
+        marginBottom: '1rem',
+        color: 'var(--gray-12)',
+        fontWeight: '500'
+      }}>
+        TABLE OF CONTENTS
+      </Heading>
+      
+      <Flex direction="column" gap="1">
+        {tableOfContents.map((item, index) => (
+          <Text 
+            key={index}
+            size="2" 
+            style={{ 
+              cursor: 'pointer',
+              padding: '0.25rem 0',
+              color: index === 0 ? 'var(--orange-9)' : 'var(--gray-9)',
+              fontWeight: index === 0 ? '500' : '400',
+              lineHeight: '1.4'
+            }}
+          >
+            {item}
+          </Text>
+        ))}
       </Flex>
-    </Card>
+    </div>
   )
 }
 

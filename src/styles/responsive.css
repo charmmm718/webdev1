@@ -18,17 +18,25 @@
     padding: 1rem;
   }
   
-  /* Factory Layout Mobile */
-  .factory-layout {
-    padding: 1rem;
+  /* Factory Layout Mobile - Single Column */
+  .factory-grid-layout {
+    display: block !important;
   }
   
-  .factory-toc {
-    display: none;
+  .factory-left-column {
+    position: static !important;
+    padding: 1rem !important;
+    border-right: none !important;
+    border-bottom: 1px solid var(--gray-3);
   }
   
-  .factory-article {
-    padding: 1rem;
+  .factory-right-column {
+    padding: 1rem !important;
+  }
+  
+  .factory-toc-bottom {
+    position: static !important;
+    margin-top: 2rem;
   }
   
   /* Navigation Mobile */
