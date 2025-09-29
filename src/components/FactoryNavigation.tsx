@@ -17,7 +17,7 @@ const FactoryNavigation = () => {
       {/* Logo and Brand */}
       <Flex align="center" gap="2">
         <Settings size={18} color="var(--gray-12)" />
-        <Text size="3" weight="bold" style={{ color: 'var(--gray-12)', fontSize: '14px' }}>
+        <Text size="3" weight="bold" style={{ color: 'var(--gray-12)', fontSize: '12px' }}>
           FACTORY
         </Text>
       </Flex>
@@ -25,24 +25,24 @@ const FactoryNavigation = () => {
       {/* Navigation Links */}
       <Flex align="center" gap="8" className="mobile-hidden">
         <Flex align="center" gap="1">
-          <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '14px' }}>
+          <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '12px' }}>
             PRODUCT
           </Text>
-          <Text size="1" style={{ transform: 'rotate(90deg)', fontSize: '12px' }}>›</Text>
+          <Text size="1" style={{ transform: 'rotate(90deg)', fontSize: '10px' }}>›</Text>
         </Flex>
-        <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '14px' }}>
+        <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '12px' }}>
           ENTERPRISE
         </Text>
-        <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '14px' }}>
+        <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '12px' }}>
           PRICING
         </Text>
-        <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '14px' }}>
+        <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '12px' }}>
           NEWS
         </Text>
-        <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '14px' }}>
+        <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '12px' }}>
           COMPANY
         </Text>
-        <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '14px' }}>
+        <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '12px' }}>
           DOCS
         </Text>
       </Flex>
@@ -56,7 +56,7 @@ const FactoryNavigation = () => {
             background: 'var(--gray-12)', 
             color: 'white',
             fontWeight: '500',
-            fontSize: '14px'
+            fontSize: '12px'
           }}
         >
           START BUILDING
@@ -68,7 +68,7 @@ const FactoryNavigation = () => {
             borderColor: 'var(--gray-6)',
             color: 'var(--gray-12)',
             fontWeight: '500',
-            fontSize: '14px'
+            fontSize: '12px'
           }}
         >
           CONTACT SALES
