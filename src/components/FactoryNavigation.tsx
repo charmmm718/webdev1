@@ -9,7 +9,6 @@ const FactoryNavigation = () => {
       style={{ 
         padding: '1rem 2rem',
         background: 'white',
-        borderBottom: '1px solid var(--gray-3)',
         position: 'sticky',
         top: 0,
         zIndex: 100
