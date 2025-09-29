@@ -1,4 +1,4 @@
-import { Flex, Card, Text, Heading } from '@radix-ui/themes'
+import { Flex, Text, Heading } from '@radix-ui/themes'
 
 const tableOfContents = [
   'Droid: The #1 Software Development Agent',

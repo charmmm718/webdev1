@@ -1,4 +1,4 @@
-import { Flex, Card, Text, Heading, Code } from '@radix-ui/themes'
+import { Flex, Text, Heading } from '@radix-ui/themes'
 
 const FactoryArticleContent = () => {
   return (
