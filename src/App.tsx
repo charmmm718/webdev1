@@ -6,7 +6,7 @@ import FactoryLayout from './layouts/FactoryLayout'
 type LayoutType = 'sarasota' | 'factory'
 
 function App() {
-  const [currentLayout, setCurrentLayout] = useState<LayoutType>('sarasota')
+  const [currentLayout, setCurrentLayout] = useState<LayoutType>('factory')
 
   return (
     <div style={{ minHeight: '100vh' }}>
