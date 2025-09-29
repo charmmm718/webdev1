@@ -16,8 +16,8 @@ const FactoryNavigation = () => {
     >
       {/* Logo and Brand */}
       <Flex align="center" gap="2">
-        <Settings size={20} color="var(--gray-12)" />
-        <Text size="4" weight="bold" style={{ color: 'var(--gray-12)' }}>
+        <Settings size={18} color="var(--gray-12)" />
+        <Text size="3" weight="bold" style={{ color: 'var(--gray-12)', fontSize: '14px' }}>
           FACTORY
         </Text>
       </Flex>
@@ -25,24 +25,24 @@ const FactoryNavigation = () => {
       {/* Navigation Links */}
       <Flex align="center" gap="8" className="mobile-hidden">
         <Flex align="center" gap="1">
-          <Text size="3" weight="medium" style={{ cursor: 'pointer' }}>
+          <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '14px' }}>
             PRODUCT
           </Text>
-          <Text size="2" style={{ transform: 'rotate(90deg)' }}>›</Text>
+          <Text size="1" style={{ transform: 'rotate(90deg)', fontSize: '12px' }}>›</Text>
         </Flex>
-        <Text size="3" weight="medium" style={{ cursor: 'pointer' }}>
+        <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '14px' }}>
           ENTERPRISE
         </Text>
-        <Text size="3" weight="medium" style={{ cursor: 'pointer' }}>
+        <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '14px' }}>
           PRICING
         </Text>
-        <Text size="3" weight="medium" style={{ cursor: 'pointer' }}>
+        <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '14px' }}>
           NEWS
         </Text>
-        <Text size="3" weight="medium" style={{ cursor: 'pointer' }}>
+        <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '14px' }}>
           COMPANY
         </Text>
-        <Text size="3" weight="medium" style={{ cursor: 'pointer' }}>
+        <Text size="2" weight="medium" style={{ cursor: 'pointer', fontSize: '14px' }}>
           DOCS
         </Text>
       </Flex>
@@ -55,7 +55,8 @@ const FactoryNavigation = () => {
           style={{ 
             background: 'var(--gray-12)', 
             color: 'white',
-            fontWeight: '500'
+            fontWeight: '500',
+            fontSize: '14px'
           }}
         >
           START BUILDING
@@ -66,7 +67,8 @@ const FactoryNavigation = () => {
           style={{ 
             borderColor: 'var(--gray-6)',
             color: 'var(--gray-12)',
-            fontWeight: '500'
+            fontWeight: '500',
+            fontSize: '14px'
           }}
         >
           CONTACT SALES
